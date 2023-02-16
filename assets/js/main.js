@@ -59,10 +59,13 @@ let y = 50;
 let z = x + y;
 console.log(z);
 
-let firstName = "John";
-let lastName = "Doe";
-let age = 35;
-console.log(firstName, lastName, age);
+let firstName;
+let lastName;
+let age;
+firstName = "John";
+lastName = "Doe";
+age = 35;
+console.log(firstName + lastName + age);
 
 // =========================================
 // lvl_1_6
@@ -96,7 +99,7 @@ console.log(fullName);
 const eifelTower = "324m";
 console.log(eifelTower);
 
-const camelCase = "camelCase";
+let camelCase = "camelCase";
 console.log(camelCase);
 
 let kursStatus = true;
